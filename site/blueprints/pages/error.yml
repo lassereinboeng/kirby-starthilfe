@@ -1,0 +1,15 @@
+title:
+  de: Fehler
+  en: Error
+extends: layouts/base
+tabs:
+  content:
+    columns:
+      main:
+        fields:
+          headline: fields/headline
+          text: fields/richtext
+image:
+  color: red-600
+  icon: ⛔️
+  back: red-300

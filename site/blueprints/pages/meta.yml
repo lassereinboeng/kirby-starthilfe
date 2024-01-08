@@ -1,0 +1,6 @@
+title:
+  de: Meta-Seite
+  en: Meta Page
+extends: pages/default
+image:
+  icon: text

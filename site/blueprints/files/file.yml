@@ -1,0 +1,34 @@
+title: Datei
+extends: files/default
+image:
+  color: '#000000'
+  back: 'gray-300'
+  ratio: 1/1
+accept:
+  extension:
+    - pdf
+    - zip
+    - tar
+    - gz
+    - tar.gz
+    - doc
+    - docx
+    - numbers
+    - pages
+    - csv
+    - txt
+    - md
+    - html
+    - js
+    - ts
+    - php
+    - mp3
+    - wav
+    - ogg
+    - aac
+    - psd
+    - indd
+    - idml
+    - ai
+fields:
+  alt: false

@@ -1,0 +1,5 @@
+label:
+  de: Favicon
+  en: Favicon
+extends: fields/icon
+required: true

@@ -1,0 +1,11 @@
+title: Icon
+extends: files/default
+image:
+  color: '#000000'
+  back: 'gray-300'
+  ratio: 1/1
+accept:
+  extension: png, svg
+  type: image
+fields:
+  alt: false

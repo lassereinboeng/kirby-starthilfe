@@ -1,0 +1,8 @@
+icon: bolt
+label: Admin Tools
+fields:
+  downloadContent:
+    type: janitor
+    command: "download-content"
+    label: Gesamten Inhalt herunterladen (.zip)
+    icon: archive

@@ -1,0 +1,34 @@
+# System Files
+.DS_Store
+
+# Frontend
+node_modules/
+/public/assets/
+/public/dist/
+/public/backups/
+
+# Kirby
+.dev
+kirby
+vendor
+
+site/plugins/*
+# Don't ignore local custom plugins
+!site/plugins/custom-*
+
+/public/media/*
+!/public/media/index.html
+
+/storage/accounts/*
+!/storage/accounts/.gitkeep
+
+/storage/cache/*
+!/storage/cache/.gitkeep
+
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+/storage/sessions/*
+!/storage/sessions/.gitkeep
+
+/site/config/.license

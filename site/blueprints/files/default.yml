@@ -1,0 +1,20 @@
+title:
+  de: Datei
+  en: File
+fields:
+  uploaded:
+    type: date
+    label:
+      de: Uploaddatum
+      en: Upload date
+    display:
+      de: 'DD.MM.YYYY'
+      en: 'DD/MM/YYYY'
+    default: now
+    time: true
+  alt:
+    label:
+      de: Alternativtext
+      en: Alternative Text
+    type: text
+    width: 1/1

@@ -1,0 +1,118 @@
+title:
+  de: Medien
+  en: Media
+extends: layouts/base
+
+image:
+  icon: images
+
+options:
+  preview: false
+  delete: false
+  changeSlug: false
+  changeStatus: false
+  duplicate: false
+  changeTitle: false
+  move: false
+
+status:
+  draft: false
+  unlisted: true
+  listed: false
+
+tabs:
+  gridView:
+    label:
+      de: Rasteransicht
+      en: Grid View
+    icon: grid
+    sections:
+      mediaGrid:
+        label:
+          de: Rasteransicht
+          en: Grid View
+        type: files
+        layout: cards
+        sortBy: uploaded desc
+        search: true
+        limit: 32
+        template: image
+        info: "{{ file.alt.isNotEmpty ? file.alt : '' }}"
+        text: '{{ file.filename }}'
+        image:
+          back: '#ccc'
+          ratio: 4/3
+          cover: false
+  listView:
+    label:
+      de: Listenansicht
+      en: List View
+    icon: list-bullet
+    sections:
+      mediaList:
+        label:
+          de: Listenansicht
+          en: List View
+        type: files
+        layout: table
+        sortBy: uploaded desc
+        search: true
+        size: tiny
+        template: image
+        columns:
+          alt:
+            label: Alt-Text
+          uploaded:
+            label: Upload am
+        limit: 120
+        image:
+          back: '#ccc'
+          cover: true
+  icons:
+    label: Icons
+    icon: badge
+    sections:
+      icons:
+        label: Rasteransicht
+        type: files
+        layout: cards
+        size: small
+        sortBy: uploaded desc
+        search: true
+        limit: 32
+        template: icon
+        text: '{{ file.filename }}'
+  videos:
+    label:
+      de: Videos
+      en: Videos
+    icon: video
+    sections:
+      videos:
+        label:
+          de: Rasteransicht
+          en: Grid View
+        type: files
+        layout: cards
+        sortBy: uploaded desc
+        search: true
+        limit: 30
+        template: video
+        info: "{{ file.alt.isNotEmpty ? file.alt : '' }}"
+        text: '{{ file.filename }}'
+  files:
+    label:
+      de: Sonstige
+      en: Misc
+    icon: file
+    sections:
+      videos:
+        label:
+          de: Listenansicht
+          en: List View
+        type: files
+        sortBy: uploaded desc
+        search: true
+        limit: 30
+        template: file
+        text: '{{ file.filename }}'

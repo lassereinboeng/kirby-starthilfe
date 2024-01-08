@@ -1,0 +1,25 @@
+title: Default
+extends: layouts/base
+
+image:
+  icon: 📄
+
+tabs:
+  content:
+    icon: text
+    label:
+      de: Inhalt
+      en: Content
+    columns:
+      main:
+        width: 2/3
+        sections:
+          fields:
+            type: fields
+            fields:
+              text: fields/richtext
+      sidebar:
+        width: 1/3
+        fields:
+          image: fields/image
+  seo: seo/page

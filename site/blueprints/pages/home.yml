@@ -1,0 +1,8 @@
+title:
+  de: Startseite
+  en: Home
+extends: pages/default
+
+image:
+  back: green-300
+  icon: 🏠

@@ -1,0 +1,9 @@
+label:
+  de: Icon
+  en: Icon
+extends: fields/files
+multiple: false
+uploads:
+  template: icon
+image:
+  cover: true

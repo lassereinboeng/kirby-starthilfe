@@ -1,0 +1,9 @@
+label:
+  de: Bild
+  en: Image
+extends: fields/files
+multiple: false
+uploads:
+  template: image
+image:
+  cover: true

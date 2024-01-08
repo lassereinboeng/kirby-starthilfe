@@ -1,0 +1,20 @@
+title: Video
+extends: files/default
+image:
+  color: '#000000'
+  back: 'aqua-300'
+  ratio: 16/9
+  icon: 📹
+fields:
+  alt: false
+  poster:
+    extends: fields/image
+    label: Poster
+    width: 1/2
+    image:
+      ratio: 16/9
+    help: >
+      Wird statt des Videos angezeigt, wenn der Browser nicht in der Lage ist, ein Video darzustellen
+accept:
+  extension: mp4
+  type: video

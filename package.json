@@ -1,0 +1,32 @@
+{
+  "name": "kirby-starthilfe",
+  "version": "0.1.0",
+  "description": "An opinionated Kirby 4 website boilerplate",
+  "type": "module",
+  "scripts": {
+    "cache:clear": "rm -rf storage/cache",
+    "twsort": "rustywind --write site",
+    "dev": "npm run cache:clear && rm -rf public/dist && vite",
+    "build": "npm run cache:clear && rm -rf public/dist && vite build"
+  },
+  "keywords": [
+    "Kirby",
+    "Kirby",
+    "4",
+    "Vite",
+    "Typescript"
+  ],
+  "author": "Lasse Weinbrandt",
+  "private": true,
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.10.7",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "prettier": "^3.1.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11",
+    "vite-plugin-kirby": "^5.1.0"
+  }
+}

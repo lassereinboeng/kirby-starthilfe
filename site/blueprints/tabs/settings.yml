@@ -1,0 +1,6 @@
+label:
+  de: Einstellungen
+  en: Settings
+icon: cog
+fields:
+  favicon: fields/favicon

@@ -1,0 +1,7 @@
+label:
+  de: Formatierbarer Text
+  en: Rich Text
+type: writer
+inline: false
+toolbar:
+  inline: false

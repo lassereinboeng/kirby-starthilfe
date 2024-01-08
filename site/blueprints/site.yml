@@ -1,0 +1,49 @@
+title:
+  de: Übersicht
+  en: Site
+
+tabs:
+  pages:
+    label:
+      de: Seiten
+      en: Pages
+    icon: page
+    columns:
+      - width: 1/2
+        sections:
+          homepage:
+            label:
+              de: Startseite
+              en: Home Page
+            type: pages
+            template: home
+            max: 1
+          pages:
+            label:
+              de: Seiten
+              en: Pages
+            type: pages
+            templatesIgnore:
+              - home
+              - error
+              - media
+              - meta
+      - width: 1/2
+        sections:
+          meta:
+            label:
+              de: Meta-Seiten
+              en: Meta Pages
+            type: pages
+            template: meta
+          error:
+            label:
+              de: Fehler
+              en: Error
+            type: pages
+            template: error
+            min: 1
+            max: 1
+  settings: tabs/settings
+  seo: seo/site
+  admin: tabs/admin

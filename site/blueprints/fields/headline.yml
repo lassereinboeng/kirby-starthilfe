@@ -1,0 +1,14 @@
+type: writer
+label:
+  de: Überschrift
+  en: Headline
+inline: false
+nodes:
+  - paragraph
+marks:
+  - bold
+  - italic
+  - underline
+  - strike
+toolbar:
+  inline: false

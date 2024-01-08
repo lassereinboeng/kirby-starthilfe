@@ -1,0 +1,9 @@
+title: Bild
+extends: files/default
+image:
+  color: '#000000'
+  back: 'gray-300'
+  ratio: 3/2
+accept:
+  extension: jpg, jpeg, png, gif
+  type: image
