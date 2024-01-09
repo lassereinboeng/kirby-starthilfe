@@ -5,4 +5,4 @@ layout: cards
 type: files
 uploads:
   parent: site.find('media')
-query: site.find('media').images.filterBy('template','image').sortBy('uploaded').flip
+query: site.find('media').files.sortBy('uploaded').flip

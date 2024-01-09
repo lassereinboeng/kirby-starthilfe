@@ -7,3 +7,4 @@ uploads:
   template: icon
 image:
   cover: true
+query: site.find('media').images.filterBy('template','icon').sortBy('uploaded').flip
