@@ -6,7 +6,7 @@ Headline: 404
 
 ----
 
-Text: <p>Oops, this page was not found.</p>
+Text: <p>Upps, diese Seite wurde nicht gefunden.</p>
 
 ----
 

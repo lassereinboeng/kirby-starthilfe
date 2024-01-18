@@ -4,6 +4,7 @@ use Kirby\Cms\App;
 use Kirby\Toolkit\Str;
 
 return [
+    'languages' => true,
     'yaml.handler' => 'symfony',
     'debug' => false,
     'panel' => [
@@ -35,7 +36,9 @@ return [
             ],
             '-',
             'users',
+            'languages',
             'system',
+            '-',
             'retour',
         ],
     ],

@@ -26,7 +26,7 @@ snippet('layouts/default', slots: true) ?>
     <h1 class="text-4xl lg:text-5xl font-bold mb-4">
       <?= $site->title() ?>
     </h1>
-    <p class="text-lg lg:text-xl">Delete this page and have fun 🚀</p>
+    <div class="text-lg lg:text-xl"><?= $page->text() ?></div>
   </div>
 
   <p class="absolute bottom-4 text-xs p-4">Icon created by <a target="_blank"
