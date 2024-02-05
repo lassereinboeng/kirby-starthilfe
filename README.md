@@ -16,6 +16,6 @@ This is my personal template for building websites with Kirby CMS. It's built on
 - [x] Vite as build tool and dev server
 - [x] Typescript support
 - [x] Tailwind CSS
-- [x] Prettier
-- [x] PHP Formatting with Laravel Pint
-- [x] Support for Ray
+- [x] Prettier formatting
+- [x] PHP formatting with Laravel Pint and Kirby conventions
+- [x] Support for Ray debugging

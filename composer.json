@@ -18,7 +18,7 @@
     "getkirby/cms": "^4.0",
     "getkirby/cli": "^1.2",
     "arnoson/kirby-vite": "^5.1",
-    "tobimori/kirby-seo": "^0.4.0",
+    "tobimori/kirby-seo": "^1.0",
     "distantnative/retour-for-kirby": "^5.0",
     "genxbe/kirby3-ray": "^2.0",
     "bnomei/kirby3-janitor": "^4.0"
@@ -31,5 +31,6 @@
   },
   "require-dev": {
     "laravel/pint": "^1.13"
-  }
+  },
+  "minimum-stability": "beta"
 }

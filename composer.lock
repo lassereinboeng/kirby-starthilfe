@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d718f3308eedd4418d9b39bb08695a19",
+    "content-hash": "8b8fc07c9fe33b7ba7819fcf2de1184c",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -2983,16 +2983,16 @@
         },
         {
             "name": "tobimori/kirby-seo",
-            "version": "0.4.0",
+            "version": "1.0.0-rc.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tobimori/kirby-seo.git",
-                "reference": "0966d4a627f037b38a5e79dbfe6448d433ea6650"
+                "reference": "d714246177d8c2a490b8aa5d30eafc2e6800f8d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/0966d4a627f037b38a5e79dbfe6448d433ea6650",
-                "reference": "0966d4a627f037b38a5e79dbfe6448d433ea6650",
+                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/d714246177d8c2a490b8aa5d30eafc2e6800f8d4",
+                "reference": "d714246177d8c2a490b8aa5d30eafc2e6800f8d4",
                 "shasum": ""
             },
             "require": {
@@ -3001,8 +3001,9 @@
                 "spatie/schema-org": "^3.14"
             },
             "require-dev": {
-                "getkirby/cli": "^1.1",
-                "getkirby/cms": "^4.0-beta.1"
+                "friendsofphp/php-cs-fixer": "^3.48",
+                "getkirby/cli": "^1.2",
+                "getkirby/cms": "^4.0"
             },
             "type": "kirby-plugin",
             "extra": {
@@ -3027,7 +3028,7 @@
             "homepage": "https://github.com/tobimori/kirby-seo#readme",
             "support": {
                 "issues": "https://github.com/tobimori/kirby-seo/issues",
-                "source": "https://github.com/tobimori/kirby-seo/tree/0.4.0"
+                "source": "https://github.com/tobimori/kirby-seo/tree/1.0.0-rc.2"
             },
             "funding": [
                 {
@@ -3035,7 +3036,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-08T20:56:41+00:00"
+            "time": "2024-01-30T15:04:00+00:00"
         }
     ],
     "packages-dev": [
@@ -3107,7 +3108,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
