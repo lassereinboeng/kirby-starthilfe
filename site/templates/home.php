@@ -8,7 +8,7 @@ snippet('layouts/default', slots: true) ?>
 <section
   class="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-neutral-200 to-neutral-300">
   <div class="container text-center mb-[7vh]">
-    <div class="w-28 aspect-square flex items-center justify-center p-6 mb-4 rounded-full bg-black fill-white mx-auto">
+    <div class="w-28 h-28 flex items-center justify-center p-5 mb-4 rounded-full bg-black fill-white mx-auto rotate-45">
       <svg width="26"
         height="48"
         viewBox="0 0 26 48"
