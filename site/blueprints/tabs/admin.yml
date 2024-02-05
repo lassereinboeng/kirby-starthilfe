@@ -4,5 +4,5 @@ fields:
   downloadContent:
     type: janitor
     command: "download-content"
-    label: Gesamten Inhalt herunterladen (.zip)
+    label: Download Website Content (.zip)
     icon: archive

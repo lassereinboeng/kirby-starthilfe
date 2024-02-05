@@ -38,9 +38,9 @@ tabs:
         limit: 32
         template: image
         info: "{{ file.alt.isNotEmpty ? file.alt : '' }}"
-        text: '{{ file.filename }}'
+        text: "{{ file.filename }}"
         image:
-          back: '#ccc'
+          back: "#ccc"
           ratio: 4/3
           cover: false
   listView:
@@ -66,14 +66,16 @@ tabs:
             label: Upload am
         limit: 120
         image:
-          back: '#ccc'
+          back: "#ccc"
           cover: true
   icons:
     label: Icons
     icon: badge
     sections:
       icons:
-        label: Rasteransicht
+        label:
+          de: Rasteransicht
+          en: Grid View
         type: files
         layout: cards
         size: small
@@ -81,7 +83,7 @@ tabs:
         search: true
         limit: 32
         template: icon
-        text: '{{ file.filename }}'
+        text: "{{ file.filename }}"
   videos:
     label:
       de: Videos
@@ -99,7 +101,7 @@ tabs:
         limit: 30
         template: video
         info: "{{ file.alt.isNotEmpty ? file.alt : '' }}"
-        text: '{{ file.filename }}'
+        text: "{{ file.filename }}"
   files:
     label:
       de: Sonstige
@@ -115,4 +117,4 @@ tabs:
         search: true
         limit: 30
         template: file
-        text: '{{ file.filename }}'
+        text: "{{ file.filename }}"
