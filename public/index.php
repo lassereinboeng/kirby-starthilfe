@@ -14,6 +14,7 @@ $kirby = new Kirby([
         'content' => $base . '/content',
         'site' => $base . '/site',
         'storage' => $storage = $base . '/storage',
+        'logs'     => $storage . '/logs',
         'accounts' => $storage . '/accounts',
         'cache' => $storage . '/cache',
         'sessions' => $storage . '/sessions',
