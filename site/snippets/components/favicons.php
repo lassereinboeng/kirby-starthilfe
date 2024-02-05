@@ -1,4 +1,4 @@
-<?php if ($favicon = $site->favicon()->toFile()) { ?>
+<?php if ($favicon = $site->favicon()->toFile()): ?>
 <link rel="icon"
   type="image/png"
   sizes="32x32"
@@ -25,4 +25,4 @@
   type="image/png"
   sizes="152x152"
   href="<?= $favicon->resize(152)->url() ?>">
-<?php } ?>
+<?php endif ?>
