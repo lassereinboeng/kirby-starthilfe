@@ -10,4 +10,5 @@ return [
             'active' => false,
         ],
     ],
+    'editor' => 'vscode'
 ];

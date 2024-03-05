@@ -58,5 +58,5 @@ return [
                 return false;
             }
         ]
-    ]
+    ],
 ];
