@@ -51,5 +51,12 @@ return [
             'active' => true,
         ],
     ],
-    'tobimori.seo.lang' => 'de_DE',
+    'routes' => [
+        [
+            'pattern' => 'media',
+            'action' => function () {
+                return false;
+            }
+        ]
+    ]
 ];
