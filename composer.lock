@@ -611,16 +611,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "4.1.1",
+            "version": "4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "1353c9fbe3ede6bee946f527d146841719eef7d5"
+                "reference": "6b7ac66c55ecac20d6b580ef01a667d1806d5c72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/1353c9fbe3ede6bee946f527d146841719eef7d5",
-                "reference": "1353c9fbe3ede6bee946f527d146841719eef7d5",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/6b7ac66c55ecac20d6b580ef01a667d1806d5c72",
+                "reference": "6b7ac66c55ecac20d6b580ef01a667d1806d5c72",
                 "shasum": ""
             },
             "require": {
@@ -710,7 +710,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-02-26T10:06:07+00:00"
+            "time": "2024-03-06T11:38:42+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -2977,16 +2977,16 @@
         },
         {
             "name": "tobimori/kirby-seo",
-            "version": "1.0.0-rc.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tobimori/kirby-seo.git",
-                "reference": "d714246177d8c2a490b8aa5d30eafc2e6800f8d4"
+                "reference": "bb7eae464d0ccf4bbc603041a9203de987ae4fa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/d714246177d8c2a490b8aa5d30eafc2e6800f8d4",
-                "reference": "d714246177d8c2a490b8aa5d30eafc2e6800f8d4",
+                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/bb7eae464d0ccf4bbc603041a9203de987ae4fa5",
+                "reference": "bb7eae464d0ccf4bbc603041a9203de987ae4fa5",
                 "shasum": ""
             },
             "require": {
@@ -3022,7 +3022,7 @@
             "homepage": "https://github.com/tobimori/kirby-seo#readme",
             "support": {
                 "issues": "https://github.com/tobimori/kirby-seo/issues",
-                "source": "https://github.com/tobimori/kirby-seo/tree/1.0.0-rc.2"
+                "source": "https://github.com/tobimori/kirby-seo/tree/1.1.0"
             },
             "funding": [
                 {
@@ -3030,7 +3030,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-30T15:04:00+00:00"
+            "time": "2024-03-21T18:51:51+00:00"
         }
     ],
     "packages-dev": [
