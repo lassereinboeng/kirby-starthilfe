@@ -108,7 +108,7 @@ tabs:
       en: Misc
     icon: file
     sections:
-      videos:
+      files:
         label:
           de: Listenansicht
           en: List View
