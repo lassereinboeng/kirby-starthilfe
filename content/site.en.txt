@@ -1,0 +1,57 @@
+Title: Kirby Starthilfe
+
+----
+
+Favicon: []
+
+----
+
+Metatemplate: {{ page.title }} | {{ site.title }}
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: summary_large_image
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: true
+
+----
+
+Robotssnippet: true
+
+----
+
+Socialmediaaccounts: 
