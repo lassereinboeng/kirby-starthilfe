@@ -59,4 +59,7 @@ return [
             }
         ]
     ],
+    'tobimori.seo.sitemap' => [
+        'excludeTemplates' => ['error', 'media']
+    ],
 ];
