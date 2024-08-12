@@ -21,7 +21,8 @@
     "tobimori/kirby-seo": "^1.0",
     "distantnative/retour-for-kirby": "^5.0",
     "genxbe/kirby3-ray": "^2.0",
-    "bnomei/kirby3-janitor": "^4.0"
+    "bnomei/kirby3-janitor": "^4.0",
+    "beebmx/kirby-env": "^4.2"
   },
   "config": {
     "allow-plugins": {

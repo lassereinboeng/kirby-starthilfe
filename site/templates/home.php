@@ -5,8 +5,7 @@
 /** @var Kirby\Cms\Page $page */
 snippet('layouts/default', slots: true) ?>
 
-<section
-  class="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-neutral-200 to-neutral-300">
+<section class="min-h-screen flex items-center justify-center relative bg-white">
   <div class="container text-center mb-[7vh]">
     <div class="w-28 h-28 flex items-center justify-center p-5 mb-4 rounded-full bg-black fill-white mx-auto rotate-45">
       <svg width="26"
@@ -23,12 +22,11 @@ snippet('layouts/default', slots: true) ?>
       </svg>
 
     </div>
-    <h1 class="text-4xl lg:text-5xl font-bold mb-4">
+    <h1 class="text-4xl lg:text-5xl font-extrabold mb-4">
       <?= $site->title() ?>
     </h1>
     <div class="text-lg lg:text-xl"><?= $page->text() ?></div>
   </div>
-
   <p class="absolute bottom-4 text-xs p-4">Icon created by <a target="_blank"
       href="https://thenounproject.com/koson.graphic/"
       class="underline">Koson

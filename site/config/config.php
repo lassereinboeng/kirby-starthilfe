@@ -1,15 +1,23 @@
 <?php
 
+use Beebmx\KirbyEnv;
 use Kirby\Cms\App;
 use Kirby\Toolkit\Str;
+
+// Load sensible config data from .env
+$projectRoot = __DIR__ . '/../..';
+KirbyEnv::load($projectRoot);
 
 return [
     'languages' => true,
     'yaml.handler' => 'symfony',
-    'debug' => false,
+    'debug' => env('DEBUG'),
+    'date'  => [
+        'handler' => 'intl'
+    ],
     'panel' => [
-        'install' => false,
-        'language' => 'de',
+        'install' => env('PANEL_INSTALL'),
+        'language' => env('PANEL_LANG'),
         'menu' => [
             'site' => [
                 'current' => function (): bool {
@@ -48,7 +56,7 @@ return [
     ],
     'cache' => [
         'pages' => [
-            'active' => true,
+            'active' => env('PAGE_CACHE_ACTIVE'),
         ],
     ],
     'routes' => [
@@ -62,4 +70,5 @@ return [
     'tobimori.seo.sitemap' => [
         'excludeTemplates' => ['error', 'media']
     ],
+    'editor' => 'vscode',
 ];

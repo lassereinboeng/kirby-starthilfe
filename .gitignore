@@ -33,5 +33,8 @@ site/plugins/*
 
 /site/config/.license
 
-#Retour
+# Retour
 site/logs
+
+# Environment
+.env

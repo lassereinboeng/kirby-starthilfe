@@ -19,3 +19,4 @@ This is my personal template for building websites with Kirby CMS. It's built on
 - [x] Prettier formatting
 - [x] PHP formatting with Laravel Pint and Kirby conventions
 - [x] Support for Ray debugging
+- [x] Environment specific configuration
