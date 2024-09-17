@@ -1,4 +1,6 @@
-<?php if ($favicon = $site->favicon()->toFile()): ?>
+<?php
+/** @var Kirby\Cms\Site $site */
+if ($favicon = $site->favicon()->toFile()): ?>
 <link rel="icon"
   type="image/png"
   sizes="32x32"

@@ -1,5 +1,5 @@
-<?php declare(strict_types = 1);
-
+<?php
+declare(strict_types = 1);
 /** @var Kirby\Cms\App $kirby */
 /** @var Kirby\Cms\Site $site */
 /** @var Kirby\Cms\Page $page */
