@@ -22,6 +22,9 @@ site/plugins/*
 /storage/accounts/*
 !/storage/accounts/.gitkeep
 
+/storage/backups/*
+!/storage/backups/.gitkeep
+
 /storage/cache/*
 !/storage/cache/.gitkeep
 

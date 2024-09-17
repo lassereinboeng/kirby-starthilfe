@@ -46,4 +46,3 @@ tabs:
             max: 1
   settings: tabs/settings
   seo: seo/site
-  admin: tabs/admin

@@ -48,6 +48,7 @@ return [
             'system',
             '-',
             'retour',
+            'backups'
         ],
     ],
     'thumbs' => [
@@ -71,4 +72,5 @@ return [
         'excludeTemplates' => ['error', 'media']
     ],
     'editor' => 'vscode',
+    'sylvainjule.backups.maximum' => 5,
 ];

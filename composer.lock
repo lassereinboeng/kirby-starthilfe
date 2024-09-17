@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d63bfab405200fe109e6193afe79d81f",
+    "content-hash": "dc9a15fa1da19c152d793a8bfc94a46f",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -2419,6 +2419,41 @@
                 }
             ],
             "time": "2024-01-11T14:58:44+00:00"
+        },
+        {
+            "name": "sylvainjule/backups",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sylvainjule/kirby-backups.git",
+                "reference": "a2ea8347aca0235cdc46d667cbb8f6fa4c23f15f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-backups/zipball/a2ea8347aca0235cdc46d667cbb8f6fa4c23f15f",
+                "reference": "a2ea8347aca0235cdc46d667cbb8f6fa4c23f15f",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sylvain Julé",
+                    "email": "contact@sylvain-jule.fr"
+                }
+            ],
+            "description": "Manage backups from the Kirby panel",
+            "support": {
+                "issues": "https://github.com/sylvainjule/kirby-backups/issues",
+                "source": "https://github.com/sylvainjule/kirby-backups/tree/1.0.5"
+            },
+            "time": "2024-03-06T22:34:32+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
