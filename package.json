@@ -11,21 +11,20 @@
   },
   "keywords": [
     "Kirby",
-    "Kirby",
-    "4",
+    "Kirby 4",
     "Vite",
     "Typescript"
   ],
   "author": "Lasse Weinbrandt",
   "private": true,
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20.17.22",
-    "autoprefixer": "^10.4.20",
     "postcss": "^8.5.3",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^3.4.17",
+    "tailwindcss": "^4.0.9",
     "typescript": "^5.8.2",
     "vite": "^5.4.14",
     "vite-plugin-kirby": "^5.4.0"

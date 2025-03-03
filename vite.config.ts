@@ -16,7 +16,9 @@ export default defineConfig(({ mode }) => {
         ],
       },
     },
-
+    server: {
+      cors: true,
+    },
     plugins: [
       kirby({
         watch: [
