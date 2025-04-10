@@ -6,6 +6,7 @@ node_modules/
 /public/assets/
 /public/dist/
 /public/backups/
+/public/hot
 
 # Kirby
 .dev
