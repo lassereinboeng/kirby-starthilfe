@@ -16,7 +16,7 @@
     content="width=device-width, initial-scale=1.0">
   <?php snippet('seo/head') ?>
   <?php snippet('components/favicons') ?>
-  <?= vite()->css('main.css') ?>
+  <?= vite(['src/main.css', 'src/main.ts']) ?>
 </head>
 
 <body class="<?= $page->template() ?>">
@@ -25,7 +25,6 @@
     <?= $slot ?>
   </main>
 
-  <?= vite()->js('main.ts') ?>
   <?php snippet('seo/schemas') ?>
 </body>
 

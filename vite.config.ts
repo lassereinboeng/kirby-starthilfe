@@ -1,30 +1,32 @@
 import { defineConfig } from 'vite'
 import { resolve } from 'path'
-import kirby from 'vite-plugin-kirby'
+import laravel from 'laravel-vite-plugin'
 
 export default defineConfig(({ mode }) => {
   return {
-    root: 'src',
     base: mode === 'development' ? '/' : '/dist/',
     build: {
-      outDir: resolve(process.cwd(), 'public/dist'),
+      outDir: resolve(__dirname, 'public/dist'),
       emptyOutDir: true,
-      rollupOptions: {
-        input: [
-          resolve(process.cwd(), 'src/main.ts'),
-          resolve(process.cwd(), 'src/main.css'),
-        ],
-      },
+      manifest: 'manifest.json',
     },
     server: {
-      cors: true,
+      host: '0.0.0.0',
+      port: 5173,
+      strictPort: true,
+      origin: `${process.env.DDEV_PRIMARY_URL?.replace(/:\d+$/, '')}:5173`,
+      cors: {
+        origin: /https?:\/\/([A-Za-z0-9\-\.]+)?(\.ddev\.site)(?::\d+)?$/,
+      },
     },
     plugins: [
-      kirby({
-        watch: [
+      laravel({
+        input: ['src/main.css', 'src/main.ts'],
+        refresh: [
           '../site/(templates|snippets|controllers|models|layouts)/**/*.php',
           '../content/**/*',
         ],
+        publicDirectory: './public',
       }),
     ],
   }

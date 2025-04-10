@@ -73,4 +73,5 @@ return [
     ],
     'editor' => 'vscode',
     'sylvainjule.backups.maximum' => 5,
+    'lukaskleinschmidt.kirby-laravel-vite.buildDirectory' => 'dist',
 ];

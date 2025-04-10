@@ -17,13 +17,13 @@
     "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
     "getkirby/cms": "^4.0",
     "getkirby/cli": "^1.2",
-    "arnoson/kirby-vite": "^5.1",
     "tobimori/kirby-seo": "^1.0",
     "distantnative/retour-for-kirby": "^5.0",
     "genxbe/kirby3-ray": "^2.0",
     "bnomei/kirby3-janitor": "^4.0",
     "beebmx/kirby-env": "^4.2",
-    "sylvainjule/backups": "^1.0"
+    "sylvainjule/backups": "^1.0",
+    "lukaskleinschmidt/kirby-laravel-vite": "^2.1"
   },
   "config": {
     "allow-plugins": {
