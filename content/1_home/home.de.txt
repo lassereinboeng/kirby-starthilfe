@@ -42,11 +42,7 @@ Ogimage: []
 
 ----
 
-Twittercardtype: 
-
-----
-
-Twitterauthor: 
+Cropogimage: 
 
 ----
 
@@ -71,6 +67,14 @@ Robotssnippet: true
 ----
 
 Metainherit: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
 
 ----
 

@@ -12,19 +12,27 @@ return [
     'languages' => true,
     'yaml.handler' => 'symfony',
     'debug' => env('DEBUG'),
-    'date'  => [
-        'handler' => 'intl'
+    'date' => [
+        'handler' => 'intl',
     ],
     'panel' => [
         'install' => env('PANEL_INSTALL'),
         'language' => env('PANEL_LANG'),
+        'vue.compiler' => false,
         'menu' => [
             'site' => [
                 'current' => function (): bool {
-                    $path = App::instance()->request()->path()->toString();
+                    $path = App::instance()
+                        ->request()
+                        ->path()
+                        ->toString();
 
                     // Highlight the site button only on main site view and all pages - except media page
-                    if ($path === 'panel/site' || (Str::contains($path, 'pages/') && !Str::contains($path, 'pages/media'))) {
+                    if (
+                        $path === 'panel/site' ||
+                        (Str::contains($path, 'pages/') &&
+                            ! Str::contains($path, 'pages/media'))
+                    ) {
                         return true;
                     }
 
@@ -37,7 +45,10 @@ return [
                 'label' => 'Media',
                 'link' => 'pages/media',
                 'current' => function (): bool {
-                    $path = App::instance()->request()->path()->toString();
+                    $path = App::instance()
+                        ->request()
+                        ->path()
+                        ->toString();
 
                     return Str::contains($path, 'pages/media');
                 },
@@ -48,7 +59,7 @@ return [
             'system',
             '-',
             'retour',
-            'backups'
+            'backups',
         ],
     ],
     'thumbs' => [
@@ -65,11 +76,11 @@ return [
             'pattern' => 'media',
             'action' => function () {
                 return false;
-            }
-        ]
+            },
+        ],
     ],
     'tobimori.seo.sitemap' => [
-        'excludeTemplates' => ['error', 'media']
+        'excludeTemplates' => ['error', 'media'],
     ],
     'editor' => 'vscode',
     'sylvainjule.backups.maximum' => 5,

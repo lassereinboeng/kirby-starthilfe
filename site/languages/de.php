@@ -5,11 +5,9 @@ return [
     'default' => true,
     'direction' => 'ltr',
     'locale' => [
-        'LC_ALL' => 'de_DE'
+        'LC_ALL' => 'de_DE',
     ],
     'name' => 'Deutsch',
-    'translations' => [
-
-    ],
-    'url' => '/'
+    'translations' => [],
+    'url' => '/',
 ];
